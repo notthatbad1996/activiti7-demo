@@ -45,6 +45,8 @@ public class SecurityConfiguration {
                 {"john", "password", "ROLE_ACTIVITI_USER", "GROUP_activitiTeam"},
                 {"hannah", "password", "ROLE_ACTIVITI_USER", "GROUP_activitiTeam"},
                 {"other", "password", "ROLE_ACTIVITI_USER", "GROUP_otherTeam"},
+                {"groupLeader", "password", "ROLE_ACTIVITI_USER", "GROUP_groupLeader"},
+                {"departmentManager", "password", "ROLE_ACTIVITI_USER", "GROUP_departmentManager"},
                 {"admin", "password", "ROLE_ACTIVITI_ADMIN"},
         };
 
