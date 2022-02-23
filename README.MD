@@ -9,3 +9,12 @@
 4. 启动流程实例并设置参数
 5. 查询流程实例列表
 6. 查询流程实例历史
+
+```mermaid
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
